@@ -12,7 +12,7 @@ The source here refers to the Terraform Registry.
 ```
 module "vpc" {
 
-  source = "jason-morsley/s3-bucket/aws"
+  source = "jason-morsley/aws-s3-bucket"
 
   name = "example-s3-bucket"
 
